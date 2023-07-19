@@ -1,0 +1,165 @@
+footer{
+    width: 100vw;
+   
+    height: 322px;
+    margin-top: 350px;
+    background-color: $color-6;
+    
+    #footer{
+        display: flex;
+        justify-content: space-around;
+        max-width: 1250px;
+        margin: auto;
+       
+    }
+
+    .logo{
+        width: 250px;
+        margin-top: 10px;
+        img{
+            width: 260px;
+         
+        }
+
+        h4{
+          width: 280px;
+        
+          font-size: 28px; 
+          color: white;
+
+        }
+    }
+
+    .cartoes{
+
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        align-items: center;
+
+        .btn{
+            width: 180px;
+          
+        }
+
+        .crts{
+            width: 250px;
+       
+
+        }
+
+    }
+
+    .dsnv{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        background-image: url(../img/gifs-de-tecnologia-10.gif);
+        height: 60px;
+        h4{
+            color: white;
+        }
+        a{ 
+            img{
+                width: 25px;
+                height: 25px;
+                margin-left: 15px
+            };
+          
+        }
+    }
+
+    @media(max-width:800px){
+        .logo{
+            width: 250px;
+            margin-top: 10px;
+            img{
+                width: 260px;
+             
+            }
+    
+            h4{
+              width: 280px;
+            
+              font-size: 28px; 
+              color: white;
+    
+            }
+        }
+        .cartoes{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 50%;
+           
+            a{
+                order: 2;
+            }
+
+            .btn{
+                width: 180px;
+               
+              
+            }
+    
+            .crts{
+                width: 250px;
+                order: 1;
+           
+    
+            }
+    
+        }
+    
+    }
+
+    @media(max-width:500px){
+
+        height: 210px;
+        .logo{
+            width: 150px;
+            margin-top: 10px;
+            img{
+                width: 130px;
+             
+            }
+    
+            h4{
+              width: 180px;
+            
+              font-size: 18px; 
+              color: white;
+    
+            }
+        }
+        .cartoes{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 50%;
+           
+            a{
+                order: 2;
+            }
+
+            .btn{
+                width: 120px;
+               
+              
+            }
+    
+            .crts{
+                width: 150px;
+                order: 1;
+           
+    
+            }
+    
+        }
+    
+    }
+}
